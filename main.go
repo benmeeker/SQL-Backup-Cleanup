@@ -2,12 +2,8 @@ package main
 
 func main() {
 	var filepath []string
-	filepath = append(filepath, `\\ATAT\SQL Backups\SQL Backups\EVEREST_SYSTEM`)
-	filepath = append(filepath, `\\ATAT\SQL Backups\SQL Backups\EVEREST_TNS`)
-	filepath = append(filepath, `\\ATAT\SQL Backups\SQL Backups\EVEREST_EENT`)
-	filepath = append(filepath, `\\ATAT\SQL Backups\SQL Backups\EVEREST_WHITEFIR`)
-	filepath = append(filepath, `\\ATAT\SQL Backups\SQL Backups\Namifiers`)
-	filepath = append(filepath, `\\ATAT\SQL Backups\SQL Backups\StarShip`)
+	// TODO: Insert as many filepath's as necessary -- this program is for local backup folders or network drives.
+	filepath = append(filepath, `filepath here`)
 
 	for _, path := range filepath {
 		delete(search(path))
